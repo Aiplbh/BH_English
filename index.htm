@@ -1,0 +1,87 @@
+<html>
+<head>
+<title>BH English - Your online helpdesk for English Grammar</title>
+<link href="./css/estilo.css" rel="stylesheet" type="text/css">
+</head>
+
+<script language="javascript">
+  var win0 = null;
+  function NewWindow(mypage,myname,w,h,scroll)
+  {
+    LeftPosition = (screen.width) ? (screen.width-w)/2 : 0;
+    TopPosition = (screen.height) ? (screen.height-h)/2 : 0;
+    settings ='height='+h+',width='+w+',top='+TopPosition+',left='+LeftPosition+',scrollbars='+scroll+',resizable=no'
+    win0 = window.open(mypage,myname,settings)
+  }
+ </script>
+
+
+
+<body>
+
+<table width="760" border="0" cellpadding="0" cellspacing="0" >
+  <tr height="80">
+     <td><img src="./img/bhlogo.jpg" align="center" width="760" heigth="80" border="0" usemap="#mapamenu"></td>
+  </tr>
+</table>
+
+<table width="760" height="440" border="0" cellpadding="0" cellspacing="0" >
+     <td width="150" align="top">
+	<iframe name="menuleft" frameborder="0" height="440" scrolling="no" width="150"  src="./pag/menu.htm"></iframe>
+     </td>
+
+		
+     <td width="610">
+	<iframe name="mainFrame" frameborder="0" height="440" scrolling="no" width="610"  src="./pag/home.htm"></iframe>
+     </td>
+
+</table>
+
+<!--table width="760" height="300" border="0" cellpadding="0" cellspacing="0" >
+<td>&nbsp</td>
+</table-->
+
+<table width="760" border="0" cellpadding="0" cellspacing="0" bgcolor="white" >
+  <tr> 
+     <td align="center">
+	  <p class="botmenu">
+		<a href="./pag/home.htm"  target="mainFrame">Home</a> 
+		| 
+		<a href="./pag/news.htm" target="mainFrame">News</a>
+		|
+		<a href="javascript: NewWindow('pag/contact.htm','New',480,240,'no')">Contact us</a>
+		|
+		<a href="javascript: history.back()"  target="mainFrame">Back</a>
+	  </p>
+
+	  <p class="copy">
+		Copyright 2004-2005 - Todos os direitos reservados - Ultima atualização: 04.11.2004<br>
+		Desenvolvido por Wings <sup>&reg;</sup>  
+	  </p>
+	  
+      </td>
+  </tr>
+
+</table>
+
+<map name="mapamenu">
+  <area shape="rect" coords="25,6,332,72" href="./pag/home.htm" target="mainFrame">
+  <area shape="rect" coords="394,62,432,81" href="./pag/home.htm" target="mainFrame">
+  <area shape="rect" coords="452,64,491,81" href="./pag/news.htm" target="mainFrame">
+  <area shape="rect" coords="509,63,569,81" href="./pag/contact.htm" target="mainFrame">
+  <area shape="rect" coords="653,60,699,76" href="javascript: history.back()"  target="mainFrame">
+</map>
+
+
+
+</body>
+
+</html>
+
+<!-- ATUALIZAÇÕES  
+
+15.07.2004
+
+	TROCA DO LOGO PELO NOVOLOGO.JPG CRIADO PELO GUILHERME
+
+-->
